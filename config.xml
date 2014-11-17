@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="net.tapper.JediJump" version="1.0">
 
-	<name>Sample Infiniti Platform Jump</name>
-	<description>Help The Baker Jump From Ice-Cream Sandwhich Platform To Ice-Cream Sandwhich Platform. But Don't Miss One, Because if You Do, The Baker Will Fall To The Bottom and Reset!</description>
+	<name>Jedi Jump</name>
+	<description>Help the Jedi get to the top of the galaxy and avoid the empire</description>
 	<author email="jeff@tapper.net">Kagan Tapper</author>
 
 	<icon src="icon-128.png" width="128" height="128" />
@@ -12,13 +12,14 @@
 	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
+	<gap:plugin name="org.apache.cordova.media" />
 
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
-	<preference name="deployment-target" value="8.0" />
+	<preference name="deployment-target" value="7.0" />
 	<preference name="target-device" value="universal" />
 
 	<!-- Optional splash screen image, e.g.: -->
